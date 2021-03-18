@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_of_list"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/category_item_height"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="100dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center_vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:scaleType="centerCrop">
+
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/item_type"
+            style="@style/location_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            tools:text="Restaurant">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/item_name"
+            style="@style/location_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="20dp"
+            tools:text="Del Rio">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/item_address"
+            style="@style/location_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="20dp"
+            tools:text="Kardinala Stepinca 12, Mostar">
+
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>

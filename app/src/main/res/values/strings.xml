@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Herz Tour</string>
+    <string name="category_food_and_drinks">Food and Drinks</string>
+    <string name="category_activities">Activities</string>
+    <string name="category_sightseeing">Sightseeing</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
