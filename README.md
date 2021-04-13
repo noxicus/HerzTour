@@ -1,5 +1,5 @@
 # HerzTour
-Andorid app for tourist offers in Hercegovina using dummy data.
+Andorid app for tourist offers in Hercegovina.
 
 - Creating custom class for Locations with different constructors depending on data
 - Displaying data in ListView using custom adapter 
